@@ -7,4 +7,4 @@ class Solution(object):
         for sell in prices:
             maxP = max(maxP ,sell - minBuy)
             minBuy = min(minBuy, sell)
-        return maxP    
+        return maxP   
